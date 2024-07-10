@@ -66,7 +66,6 @@ background: none;
   margin-top: 15px;
 }
 .banner-container button{
-  color: rgb(255, 255, 255);
   font-size: 20px;
   font-weight: 600;
   text-align: center;
@@ -74,6 +73,10 @@ background: none;
   background: rgb(13, 19, 33);
   padding: 21px 24px 21px 24px;
   margin: 32px 0px;
+}
+.banner-container a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 /* banner Section :start */
 
@@ -91,14 +94,14 @@ background: none;
 }
 .info-container h2{
   color: rgb(13, 19, 33);
-  font-family: sans-serif;
+  font-family: Work Sans;
   font-size: 36px;
   font-weight: 800;
   text-align: center;
 }
 .why-web{
   color: rgb(13, 19, 33);
-  font-family: sans-serif;
+  font-family: Work Sans;
   font-size: 16px;
   font-weight: 400;
   text-align: center;
@@ -115,7 +118,7 @@ background: none;
   background: linear-gradient(to right, white, rgba(13, 19, 33, 0));
 }
 .sub-info-container h3{
-  font-family: sans-serif;
+  font-family: Work Sans;
   color: rgba(13, 19, 33, 0.7);
   font-size: 24px;
   font-weight: 700;
@@ -124,7 +127,7 @@ background: none;
 }
 .sub-info-container p{
   color: rgb(13, 19, 33);
-  font-family: sans-serif;
+  font-family: Work Sans;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -136,7 +139,7 @@ background: none;
   opacity: 0.7;
   padding: 12px 20px 12px 20px;
   color: rgb(13, 19, 33);
-  font-family: sans-serif;
+  font-family: Work Sans;
   font-size: 20px;
   font-weight: 600;
   text-align: center;
@@ -165,7 +168,7 @@ background: none;
   height: 219px;
 }
 .sub-info-container-reverse h3{
-  font-family: sans-serif;
+  font-family: Work Sans;
   color: rgba(13, 19, 33, 0.7);
   font-size: 24px;
   font-weight: 700;
@@ -174,7 +177,7 @@ background: none;
 }
 .sub-info-container-reverse p{
   color: rgb(13, 19, 33);
-  font-family: sans-serif;
+  font-family: Work Sans;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -186,7 +189,7 @@ background: none;
   opacity: 0.7;
   padding: 12px 20px 12px 20px;
   color: rgb(13, 19, 33);
-  font-family: sans-serif;
+  font-family: Work Sans;
   font-size: 20px;
   font-weight: 600;
   text-align: center;
@@ -209,7 +212,7 @@ background: none;
 }
 .primary-details-div h3{
 color: rgb(13, 19, 33);
-font-family: sans-serif;
+font-family: Work Sans;
 font-size: 32px;
 font-weight: 800;
 line-height: 37px;
@@ -217,7 +220,7 @@ text-align: center;
 }
 .primary-details-div p{
 color: rgb(13, 19, 33);
-font-family: sans-serif;
+font-family: Work Sans;
 font-size: 16px;
 font-weight: 400;
 line-height: 26px;
@@ -227,13 +230,15 @@ width: 852px;
 margin: 24px auto;
 }
 .embed-div{
+  width: 1076px;
+  height: 550px;
   border: 1px solid rgba(13, 19, 33, 0.2);
   border-radius: 16px;
   margin: 0 auto;
 }
 .embed-div iframe{
-  width: 1084px;
-  height: 582px;
+  width: 1012px;
+  height: 486px;
   border-radius: 16px;
   margin: 32px;
 }
@@ -263,7 +268,7 @@ margin: 24px auto;
 }
 .target-card-html h3{
   color: rgb(13, 19, 33);
-  font-family: sans-serif;
+  font-family: Work Sans;
   font-size: 24px;
   font-weight: 800;
   line-height: 36px;
@@ -273,7 +278,7 @@ margin: 24px auto;
 }
 .target-card-html span{
   color: rgb(13, 19, 33);
-  font-family: sans-serif;
+  font-family: Work Sans;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -281,7 +286,7 @@ margin: 24px auto;
 }
 .target-card-html a{
   color: rgb(13, 19, 33);
-  font-family: sans-serif;
+  font-family: Work Sans;
   font-size: 16px;
   font-weight: 800;
   line-height: 19px;
@@ -302,7 +307,7 @@ margin: 24px auto;
 }
 .target-card-css h3{
   color: rgb(13, 19, 33);
-  font-family: sans-serif;
+  font-family: Work Sans;
   font-size: 24px;
   font-weight: 800;
   line-height: 36px;
@@ -312,7 +317,7 @@ margin: 24px auto;
 }
 .target-card-css span{
   color: rgb(13, 19, 33);
-  font-family: sans-serif;
+  font-family: Work Sans;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -320,7 +325,7 @@ margin: 24px auto;
 }
 .target-card-css a{
   color: rgb(13, 19, 33);
-  font-family: sans-serif;
+  font-family: Work Sans;
   font-size: 16px;
   font-weight: 800;
   line-height: 19px;
@@ -341,7 +346,7 @@ margin: 24px auto;
 }
 .target-card-js h3{
   color: rgb(13, 19, 33);
-  font-family: sans-serif;
+  font-family: Work Sans;
   font-size: 24px;
   font-weight: 800;
   line-height: 36px;
@@ -351,7 +356,7 @@ margin: 24px auto;
 }
 .target-card-js span{
   color: rgb(13, 19, 33);
-  font-family: sans-serif;
+  font-family: Work Sans;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -359,7 +364,7 @@ margin: 24px auto;
 }
 .target-card-js a{
   color: rgb(13, 19, 33);
-  font-family: sans-serif;
+  font-family: Work Sans;
   font-size: 16px;
   font-weight: 800;
   line-height: 19px;
@@ -369,3 +374,90 @@ margin: 24px auto;
 }
 
   /* Target Section End */
+
+.support-div{
+  margin: 100px auto;
+  width: 1140px;
+  height: 314px;
+  background-image: linear-gradient(90deg,rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(../assets/handshake.jpg);
+  border-radius: 16px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inner-content h3{
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+.inner-content p{
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  opacity: 0.7;
+  margin: 30px auto;
+}
+.inner-content input{
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  padding: 19px 20px 19px 20px;
+  width: 548px;
+  height: 57px;
+  font-size: 20px;
+  font-family: Work Sans;
+}
+.inner-content input::placeholder{
+  font-size: 14px;
+  font-family: Work Sans;
+}
+.inner-content button{
+  font-family: Work Sans;
+  width: 120px;
+  height: 58px;
+  padding: 17px 20px 17px 20px;
+  border-radius: 8px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  border: none;
+  background: rgb(255, 255, 255);
+}
+/* Footer start */
+.foot{
+  width: 1140px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.foot-container{
+  margin: 0 auto;
+  width: 1440px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+.foot p{
+  color: rgb(13, 19, 33);
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+}
+.footer-img-div a{
+  margin: 12px;
+}
+/* Footer End */
