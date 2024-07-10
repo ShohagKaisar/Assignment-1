@@ -1,0 +1,198 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Azeret Mono;
+}
+/* Nav section */
+.navbar{
+  margin: 36px auto;
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar p{
+color: rgb(13, 19, 33);
+font-size: 28px;
+font-weight: 800;
+}
+.navbar button{
+color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 8px;
+opacity: 0.8;
+padding: 17px 24px 17px 24px;
+background: none;
+}
+/* banner Section :start */
+.banner-container{
+  background-image: url(../assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top: 1px dashed rgba(128, 128, 128, 0.6);
+  border-bottom: 1px dashed rgba(128, 128, 128, 0.6);
+  width: 1440px;
+  height: 652px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner-container img{
+  width: 240.28px;
+  height: 240px;
+  margin-top: 26px;
+}
+.banner-container h1{
+  color: rgb(13, 19, 33);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  text-align: center;
+  margin-top: 32px;
+}
+.banner-container p{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  opacity: 0.7;
+  margin-top: 15px;
+}
+.banner-container button{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  padding: 21px 24px 21px 24px;
+  margin: 32px 0px;
+}
+/* banner Section :start */
+
+/* Why Need Development Section start */
+.info-section{
+  margin: 0 auto;
+  width: 1140px;
+  height: 1393px;
+  margin-top: 74px;
+  background: rgba(13, 19, 33, 0.02);
+  border-radius: 16px;
+}
+.info-container{
+  padding: 80px 97px;
+}
+.info-container h2{
+  color: rgb(13, 19, 33);
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+}
+.why-web{
+  color: rgb(13, 19, 33);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  opacity: 0.7;
+  margin: 48px auto;
+  line-height: 25px;
+}
+.sub-info-container{
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background: linear-gradient(to right, white, rgba(13, 19, 33, 0));
+}
+.sub-info-container h3{
+  font-family: sans-serif;
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 10px;
+}
+.sub-info-container p{
+  color: rgb(13, 19, 33);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  opacity: 0.7;
+  margin: 20px 0px;
+}
+.sub-info-container button{
+  box-sizing: border-box;
+  opacity: 0.7;
+  padding: 12px 20px 12px 20px;
+  color: rgb(13, 19, 33);
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  background: none;
+  margin: 15px 0px;
+}
+.sub-info-container img{
+  margin-top: 25px;
+}
+.sub-info-container-reverse{
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 32px auto;
+  padding: 30px;
+  background: linear-gradient(to right, rgba(13, 19, 33, 0), white);
+}
+.info-div{
+  width: 400px;
+  height: 219px;
+  padding-left: 20px;
+}
+.info-div-reverse{
+  width: 600px;
+  height: 219px;
+}
+.sub-info-container-reverse h3{
+  font-family: sans-serif;
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 10px;
+}
+.sub-info-container-reverse p{
+  color: rgb(13, 19, 33);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  opacity: 0.7;
+  margin: 20px 0px;
+}
+.sub-info-container-reverse button{
+  box-sizing: border-box;
+  opacity: 0.7;
+  padding: 12px 20px 12px 20px;
+  color: rgb(13, 19, 33);
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  background: none;
+  margin: 15px 0px;
+}
+.sub-info-container-reverse img{
+  margin-top: 25px;
+}
+  /* Why Need Development Section end */
